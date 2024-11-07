@@ -1,9 +1,80 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Prativa Timsina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        /* Reset styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body styling */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+        }
+
+        /* Container for content */
+        .coming-soon-container {
+            text-align: center;
+            max-width: 500px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Heading style */
+        .coming-soon-container h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            letter-spacing: 1.5px;
+        }
+
+        /* Subheading style */
+        .coming-soon-container p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        /* Countdown style */
+        .countdown {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .countdown div {
+            font-size: 2em;
+        }
+
+        .countdown span {
+            display: block;
+            font-size: 0.5em;
+            color: #ddd;
+        }
+    </style>
 </head>
 <body>
-<marquee><h1>Coming soon</h1></marquee>
- 
+    <div class="coming-soon-container">
+        <h1>Coming Soon</h1>
+        <p>We're working hard to bring you an amazing experience. Stay tuned!</p>
+        <div class="countdown">
+            <div><span>Days</span>00</div>
+            <div><span>Hours</span>00</div>
+            <div><span>Minutes</span>00</div>
+            <div><span>Seconds</span>00</div>
+        </div>
+    </div>
 </body>
 </html>
